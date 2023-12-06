@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract DegenTok is ERC20, ERC20Burnable, Ownable {
+contract DegenToken is ERC20, ERC20Burnable, Ownable {
     
     string  minimum_balance;
     string public degen_shop;
